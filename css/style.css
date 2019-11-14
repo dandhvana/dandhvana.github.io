@@ -61,8 +61,6 @@
 }
  .main-header {
      width: 100%;
-    /*min-height: 500px;
-     */
      padding: 40px 150px;
      box-sizing: border-box;
      background-image: url(../img/header.png);
@@ -1242,10 +1240,7 @@
      .container {
          width: 100%;
     }
-     .main-header-content-wrp, .main-header-pagination, .realisation, .ads, .main-footer-content, .counters {
-         display: none;
-    }
-     .main-header-cart, .main-header-search {
+     .main-header-content-wrp, .main-header-pagination, .main-header-search, .realisation, .ads, .main-footer-content, .counters {
          display: none;
     }
      .main-header {
@@ -1347,6 +1342,10 @@
      .mobile-menu-checkbox:checked~.mobile-menu-btn .mobile-menu-icon:before {
          transform: rotate(45deg);
          -webkit-transform: rotate(45deg);
+    }
+    .main-header-cart {
+         display: block;
+         margin-right: 70px;
     }
      .services {
          justify-content: center;
